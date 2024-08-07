@@ -123,7 +123,7 @@ const AddTodo = () => {
                                 <b>{title}</b>
                                 <p>{description}</p>
                             </div>
-                            <img src={deleteIcon} alt="delete-todo" onClick={onDelete(id)}/>
+                            <img src={deleteIcon} alt="delete-todo" onClick={onDelete(id)} />
                         </div>
                     )
                 }) : null}
